@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+    
+    <audio id="audio1" src="./music/325HJR6-tiger.mp3">tiger</audio>
+    <audio id="audio2" src="./music/7UE88KE-lion.mp3">tiger</audio>
+    <audio id="audio3" src="./music/2YXWM5B-jaguar-snap-and-growl.mp3">tiger</audio>
+    <audio id="audio4" src="./music/BZD3U69-cartoon-fox-no.mp3">tiger</audio>
+    <audio id="audio5" src="./music/3DUMFVX-cow.mp3">tiger</audio>
+    <audio id="audio6" src="./music/HVC57LD-stallion-horse.mp3">tiger</audio>
+    <audio id="audio7" src="./music/Z5QVAKY-dog.mp3">tiger</audio>
+    <audio id="audio8" src="./music/E4L39FT-cat-meow.mp3">tiger</audio>
+    <div class="head">
+        <h1>Animal sound</h1>
+
+    </div>
+    
+    <div class="main">
+
+        <div onclick="img1()" class="img" id="tiger">
+            <img src="./image/tiger.jpeg" alt="" width="100%" height="252px">
+            <h2>Tiger</h2>
+            <p>To play the sound click on image</p>
+        </div>
+        <div onclick="img2()"class="img" id="lion">
+            <img src="./image/lion.jpeg" alt="" width="100%" height="252px">
+            <h2>lion</h2>
+            <p>To play the sound click on image</p>
+
+        </div>
+        <div onclick="img3()"class="img" id="jagaur">
+            <img src="./image/jagaur.jpeg" alt="" width="100%" height="252px">
+            <h2>jagaur</h2>
+            <p>To play the sound click on image</p>
+        </div>
+        <div onclick="img4()" class="img" id="Fox">
+            <img src="./image/fox.jpeg" alt="" width="100%" height="251px">
+            <h2>Fox</h2>
+            <p>To play the sound click on image</p>
+        </div>
+        <div onclick="img5()"class="img" id="cow">
+            <img src="./image/cow.jpeg" alt="" width="100%" height="251px">
+            <h2>Cow</h2>
+            <p>To play the sound click on image</p>
+        </div>
+        <div onclick="img6()"class="img" id="horse">
+            <img src="./image/horse.jpeg" alt="" width="100%" height="251px">
+            <h2>Horse</h2>
+            <p>To play the sound click on image</p>
+        </div>
+        <div onclick="img7()"class="img" id="dog">
+            <img src="./image/dog.jpeg" alt="" width="100%" height="250px">
+            <h2>Dog</h2>
+            <p>To play the sound click on image</p>
+        </div>
+        <div onclick="img8()"class="img" id="cat">
+            <img src="./image/cat.jpeg" alt="" width="100%" height="251px">
+            <h2>Cat</h2>
+            <p>To play the sound click on image</p>
+        </div>
+
+
+    </div>
+    <script>
+        function img1() {
+               document.getElementById('audio1').play()  
+                setTimeout(() => {
+                    document.getElementById('audio1').pause()  
+               }, 2500);
+               document.getElementById('body').style.backgroundColor='gray'
+        }
+        function img2() {
+               document.getElementById('audio2').play()
+               setTimeout(() => {
+                    document.getElementById('audio2').pause()  
+               }, 2500);
+                document.getElementById('body').style.backgroundColor='orange'
+        }
+        function img3() {
+               document.getElementById('audio3').play()
+               setTimeout(() => {
+                    document.getElementById('audio3').pause()  
+               }, 2500);
+                document.getElementById('body').style.backgroundColor='yellow'
+        }
+        function img4() {
+               document.getElementById('audio4').play()
+               setTimeout(() => {
+                    document.getElementById('audio4').pause()  
+               }, 2500);
+                document.getElementById('body').style.backgroundColor='green'
+        }
+        function img5() {
+               document.getElementById('audio5').play()
+               setTimeout(() => {
+                    document.getElementById('audio5').pause()  
+               }, 2500);
+                document.getElementById('body').style.backgroundColor='lightgreen'
+        }
+        function img6() {
+               document.getElementById('audio6').play()
+               setTimeout(() => {
+                    document.getElementById('audio6').pause()  
+               }, 2500);
+                document.getElementById('body').style.backgroundColor='brown'
+        }
+        function img7() {
+               document.getElementById('audio7').play()
+               setTimeout(() => {
+                    document.getElementById('audio7').pause()  
+               }, 2500);
+                document.getElementById('body').style.backgroundColor='khakhi'
+        }
+        function img8() {
+               document.getElementById('audio8').play()
+               setTimeout(() => {
+                    document.getElementById('audio8').pause()  
+               }, 2500);
+                document.getElementById('body').style.backgroundColor='pink'
+        }
+    </script>
+</body>
+
+</html>
